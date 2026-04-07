@@ -1,49 +1,34 @@
-El presente proyecto tiene como objetivo analizar el desempeño comercial mediante la comparación entre ventas reales y metas establecidas, utilizando herramientas de Business Intelligence en Power BI.
+# 📊 Análisis BI - Dashboard de Ventas
 
-1. Obtención de datos
-Se integraron múltiples fuentes de datos, específicamente un archivo Excel con información de ventas y un archivo CSV con metas comerciales. Esto permitió contar con distintas perspectivas del negocio para su análisis.
+## 🧩 Descripción
+Este proyecto consiste en el desarrollo de un dashboard interactivo en Power BI para analizar el desempeño de ventas y facilitar la toma de decisiones.
 
-2. Preparación de datos (Power Query)
-Se realizó un proceso de limpieza y transformación de datos para asegurar su calidad. Entre las principales acciones se incluyen:
+## ⚠️ Desafío
+El principal desafío fue trabajar con datos desordenados provenientes de distintas fuentes y transformarlos en información clara y útil.
 
--Corrección de nombres de columnas para estandarización.
--Eliminación de espacios en blanco y caracteres erróneos.
--Unificación de formatos de texto (mayúsculas/minúsculas).
--Conversión de tipos de datos (especialmente fechas y valores numéricos).
--Manejo de valores nulos y eliminación de errores.
-**Este proceso permitió contar con datos consistentes y listos para el análisis.
+## 💡 Solución
+Se realizó la limpieza y transformación de datos utilizando Power Query, y posteriormente se diseñó un dashboard interactivo que permite analizar ventas por período, producto y categoría.
 
-3. Modelado de datos
-Se construyó un modelo de datos tipo estrella, incorporando una tabla de calendario para facilitar el análisis temporal.
-Las tablas de ventas y metas fueron relacionadas a través de la dimensión de fechas, evitando relaciones directas entre tablas de hechos y asegurando una correcta propagación de filtros.
+## 🛠️ Herramientas utilizadas
+- Power BI  
+- Power Query  
+- Excel  
 
-4. Creación de medidas (DAX)
-Se desarrollaron medidas para el cálculo de indicadores clave (KPIs), tales como:
+## 📈 Resultados
+- Mejora en la visualización de datos  
+- Análisis más rápido de información  
+- Identificación de tendencias de ventas  
 
--Ventas totales
--Metas totales
--Porcentaje de cumplimiento
--Ventas acumuladas
-**Estas medidas permiten analizar dinámicamente el desempeño comercial en distintos niveles de detalle.
+## 📚 Aprendizajes
+- Limpieza de datos  
+- Modelado de datos  
+- Creación de dashboards  
+- Pensamiento analítico  
 
-5. Visualización de datos
-Se diseñó un reporte interactivo que incluye:
+## 💻 Habilidades aplicadas
+- Análisis de datos  
+- Visualización de datos  
+- Interpretación de información  
 
--Gráficos de barras para comparar ventas vs metas
--Tarjetas con indicadores clave
--Gráfico de tendencia de ventas acumuladas
--Segmentadores para filtrar por región, producto y período
-
-**Esto facilita una exploración dinámica y comprensible de la información.
-
-6. Dashboard final
-Se organizó la información en un dashboard claro y estructurado, incorporando un resumen ejecutivo que permite interpretar rápidamente los resultados y apoyar la toma de decisiones.
-
-**Análisis general
-Durante el período analizado, las ventas presentan un comportamiento variable en relación con las metas establecidas, evidenciando meses con bajo cumplimiento y otros con sobrecumplimiento. El total de ventas anual alcanza M$ 31.231, concentrándose principalmente en el primer cuatrimestre, donde se registra una recaudación de M$ 28.072. Este período también coincide con los únicos meses en que se cumplen las metas comerciales, mientras que en los meses posteriores el desempeño tiende a ser más irregular. A pesar de esta variabilidad, se identifica una tendencia general de crecimiento en las ventas.
-
-**Recomendaciones
-Revisar la estrategia comercial en los meses posteriores al primer cuatrimestre, donde se observa una disminución en el cumplimiento de metas.
-Identificar factores de éxito del primer cuatrimestre, con el fin de replicarlos en otros períodos (por ejemplo, campañas, promociones o estacionalidad).
-Fortalecer el seguimiento de indicadores de desempeño, utilizando dashboards como herramienta de monitoreo continuo.
-Mejorar la calidad y consistencia de los datos de origen, ya que la presencia de datos erróneos o inconsistentes puede afectar el análisis.
+## ⭐ ¿Por qué este proyecto?
+Elegí este proyecto porque refleja mi interés en el análisis de datos aplicado al negocio y mi capacidad para transformar datos en información útil.
