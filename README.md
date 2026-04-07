@@ -32,3 +32,6 @@ Se realizó la limpieza y transformación de datos utilizando Power Query, y pos
 
 ## ⭐ ¿Por qué este proyecto?
 Elegí este proyecto porque refleja mi interés en el análisis de datos aplicado al negocio y mi capacidad para transformar datos en información útil.
+
+<img width="688" height="406" alt="imagen" src="https://github.com/user-attachments/assets/f7248b2d-c72f-4f5c-aa04-95a2e910c25c" />
+
